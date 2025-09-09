@@ -12,3 +12,5 @@ I created a directory "scripts" with a shell script "sysinfo.sh" that prints cur
 ## Docker Basics
 I created a Dockerfile using a lightweight base image "python:3.10-alpine. The working directory was set to "/app" and I copied the "hello.py" file from my local machine to the container. I configured the container to the run the "hello.py" script on startup using the CMD command in the dockerfile. The "hello.py" script prints a line "Hello, DevOps!" when I run my container with "docker run --rm <image name>".
 
+## CI/CD with Github Actions
+I setup a GitHub Actions workflow that automatically runs the python "hello.py" script whenever i push code to the main branch on my remote repo on github. I equally attached a live status  badge  that reflects the success or failure of each run.
