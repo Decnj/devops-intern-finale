@@ -1,0 +1,17 @@
+# Sensitive files
+
+# Logs and runtime files
+*.log
+*.tmp
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Env files
+.env
+
+# Nomad variable files
+*.hcl
+
+
